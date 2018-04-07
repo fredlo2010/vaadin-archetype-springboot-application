@@ -4,19 +4,28 @@
 
     <groupId>com.al</groupId>
     <artifactId>vaadin-archetype-springboot-application</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>vaadin-archetype-springboot-application</name>
+    <version>1.0.0</version>
+    <packaging>maven-archetype</packaging>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>This archetype generates a Vaadin + Springboot application.</description>
     <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application</url>
 
-    <description>
-        This archetype generates a Vaadin + Springboot application.
-    </description>
+    <licenses>
+        <license>
+            <name>UNLICENSE</name>
+            <url>http://unlicense.org/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
-    <properties>
-        <archetype-packaging.version>2.2</archetype-packaging.version>
-        <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
-        <maven-archetype-plugin.version>2.2</maven-archetype-plugin.version>
-    </properties>
+    <developers>
+        <developer>
+            <name>Alfredo Lopez</name>
+            <email>alfredo.lopez.de@gmail.com</email>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application</url>
         <connection>https://github.com/fredlo2010/vaadin-archetype-springboot-application.git</connection>
@@ -27,6 +36,12 @@
         <system>GitHub Issues</system>
         <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application/issues</url>
     </issueManagement>
+
+    <properties>
+        <archetype-packaging.version>2.2</archetype-packaging.version>
+        <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
+        <maven-archetype-plugin.version>2.2</maven-archetype-plugin.version>
+    </properties>
 
     <build>
         <extensions>
@@ -75,10 +90,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <developers>
-        <developer>
-            <name>Alfredo Lopez</name>
-        </developer>
-    </developers>
 </project>
