@@ -9,7 +9,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>This archetype generates a Vaadin + Springboot application.</description>
-    <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application</url>
+    <url>https://github.com/sparkmuse/vaadin-archetype-springboot-application</url>
 
     <developers>
         <developer>
@@ -19,14 +19,14 @@
     </developers>
 
     <scm>
-        <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application</url>
-        <connection>https://github.com/fredlo2010/vaadin-archetype-springboot-application.git</connection>
-        <developerConnection>git@github.com:fredlo2010/vaadin-archetype-springboot-application.git</developerConnection>
+        <url>https://github.com/sparkmuse/vaadin-archetype-springboot-application</url>
+        <connection>https://github.com/sparkmuse/vaadin-archetype-springboot-application.git</connection>
+        <developerConnection>git@github.com:sparkmuse/vaadin-archetype-springboot-application.git</developerConnection>
     </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/fredlo2010/vaadin-archetype-springboot-application/issues</url>
+        <url>https://github.com/sparkmuse/vaadin-archetype-springboot-application/issues</url>
     </issueManagement>
 
     <build>

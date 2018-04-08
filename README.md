@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fredlo2010/vaadin-archetype-springboot-application.svg?branch=master)](https://travis-ci.org/fredlo2010/vaadin-archetype-springboot-application)
+[![Build Status](https://travis-ci.org/sparkmuse/vaadin-archetype-springboot-application.svg?branch=master)](https://travis-ci.org/sparkmuse/vaadin-archetype-springboot-application)
 
 # Vaadin + Springboot Application Archetype
 
@@ -10,7 +10,7 @@ This is a simple application to create a Vaadin application and Springboot.
     <pre>
     mvn archetype:generate \
         -DinteractiveMode=false \
-        -DarchetypeGroupId=com.github.fredlo2010 \
+        -DarchetypeGroupId=com.github.sparkmuse \
         -DarchetypeArtifactId=vaadin-archetype-springboot-application \
         -DarchetypeVersion=1.0.0 \
         -DgroupId=com.example \
